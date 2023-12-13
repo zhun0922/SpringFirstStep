@@ -1,6 +1,6 @@
 package com.example.springlearning;
 
-import com.example.springlearning.chapter03.DIController.Greet;
+import com.example.springlearning.chapter03.dicontroller.Greet;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

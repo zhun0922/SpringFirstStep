@@ -1,4 +1,4 @@
-package com.example.springlearning.chapter03.DIController;
+package com.example.springlearning.chapter03.dicontroller;
 
 public class MoriningGreet implements Greet{
 
