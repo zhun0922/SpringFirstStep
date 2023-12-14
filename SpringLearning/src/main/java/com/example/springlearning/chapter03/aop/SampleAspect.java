@@ -20,7 +20,7 @@ public class SampleAspect {
         System.out.println(String.format("메서드:%s", joinPoint.getSignature().getName()));
     }*/
 
-    @Around("execution(* com.example.springlearning.chapter03.dicontroller.*Greet.*(..))")
+    /*@Around("execution(* com.example.springlearning.chapter03.dicontroller.*Greet.*(..))")
     public Object aroundAdvice(ProceedingJoinPoint joinPoint) throws Throwable{
         System.out.println("==== Around Advice====");
         System.out.println("▼▼▼ 처리전 ▼▼▼");
@@ -28,6 +28,6 @@ public class SampleAspect {
         Object result = joinPoint.proceed();
         System.out.println("▲▲▲ 처리후 ▲▲▲");
         return result;
-    }
+    }*/
 
 }
